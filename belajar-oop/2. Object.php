@@ -1,7 +1,7 @@
 <?php
 class book
 {
-    // class body
+  public $title = 'Koding';
 }
-  $product1 = new book();
-  var_dump($product1);
+$product1 = new book();
+var_dump($product1);
