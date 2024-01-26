@@ -63,7 +63,7 @@ class Biograpy extends Buku
 		$this->figure = $figure;
 	}
 
-	public function getFigure()
+	public function getInfoFigure()
 	{
 		return "buku biografi berjudul : {$this->judul} menceritakan seorang {$this->figure}";
 	}
@@ -78,4 +78,4 @@ print($myNovel->getInfoGenre());
 print($myNovel->getDetail());
 
 $myBiograpy = new Biograpy('perjalanan OWP', 'syarif', 'mediaku', 'Pejuang Internet Indonesia');
-print($myBiograpy->getFigure());
+print($myBiograpy->getInfoFigure());
