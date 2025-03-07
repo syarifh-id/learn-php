@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macam-Macam tag Form</title>
+</head>
+<body>
+    <h1>Macam-Macam Jenis Form</h1>
+    <form action="#" method="post">
+        <!-- Input Teks -->
+        <label for="text">Nama Lengkap:</label>
+        <input type="text" id="text" name="nama" placeholder="Masukkan nama lengkap"><br><br>
+
+        <!-- Input Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Masukkan email"><br><br>
+
+        <!-- Input Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Masukkan password"><br><br>
+
+        <!-- Input Number -->
+        <label for="number">Usia:</label>
+        <input type="number" id="number" name="usia" min="1" max="100"><br><br>
+
+        <!-- Input Radio Button -->
+        <label>Jenis Kelamin:</label><br>
+        <input type="radio" id="male" name="gender" value="Laki-laki">
+        <label for="male">Laki-laki</label><br>
+        <input type="radio" id="female" name="gender" value="Perempuan">
+        <label for="female">Perempuan</label><br><br>
+
+        <!-- Input Checkbox -->
+        <label>Hobi:</label><br>
+        <input type="checkbox" id="hobi1" name="hobi" value="Membaca">
+        <label for="hobi1">Membaca</label><br>
+        <input type="checkbox" id="hobi2" name="hobi" value="Olahraga">
+        <label for="hobi2">Olahraga</label><br>
+        <input type="checkbox" id="hobi3" name="hobi" value="Memasak">
+        <label for="hobi3">Memasak</label><br><br>
+
+        <!-- Dropdown -->
+        <label for="kota">Kota Asal:</label>
+        <select id="kota" name="kota">
+            <option value="Jakarta">Jakarta</option>
+            <option value="Bandung">Bandung</option>
+            <option value="Surabaya">Surabaya</option>
+        </select><br><br>
+
+        <!-- Input Date -->
+        <label for="date">Tanggal Lahir:</label>
+        <input type="date" id="date" name="tanggal_lahir"><br><br>
+
+        <!-- Textarea -->
+        <label for="message">Pesan:</label><br>
+        <textarea id="message" name="pesan" rows="4" cols="30" placeholder="Tulis pesan Anda di sini"></textarea><br><br>
+
+        <!-- File Upload -->
+        <label for="file">Upload Dokumen:</label>
+        <input type="file" id="file" name="dokumen"><br><br>
+
+        <!-- Tombol Submit -->
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+</html>
